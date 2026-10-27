@@ -45,8 +45,7 @@ sim_gif!(
     duration=10,
     step=0.2,
     clims=(-5, 5),
-    plotbody=true,
-    video=joinpath(homedir(), "Downloads", "stationary_cylinder.gif")
+    plotbody=true
 )
 
 sim_gif!(
@@ -54,6 +53,5 @@ sim_gif!(
     duration=10,
     step=0.2,
     clims=(-5, 5),
-    plotbody=true,
-    video=joinpath(homedir(), "Downloads", "rotating_cylinder.gif")
+    plotbody=true
 )
